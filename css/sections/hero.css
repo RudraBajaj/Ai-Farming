@@ -1,0 +1,30 @@
+#hero {
+    background: url('../../Assets/BGIMG.png') center center/cover;
+    background-position: center 14.7%;
+    width: 100%;
+    color: #fff;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 25px;
+    /* margin-bottom: 20px; */
+}
+
+#hero .btn {
+    background: #77aaff;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}

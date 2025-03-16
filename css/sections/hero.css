@@ -8,6 +8,8 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    filter: brightness(0.8);
 }
 
 #hero h1 {

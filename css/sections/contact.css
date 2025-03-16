@@ -15,7 +15,7 @@
 
 .contact form input,
 .contact form textarea {
-    width: 100%;
+    width: 50%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -29,4 +29,11 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+
+    margin: 0 auto; /* Center the button */
+    display: block; /* Ensure it takes its own line */
+}
+
+.contact form button:hover{
+    background: #ff7f50;
 }

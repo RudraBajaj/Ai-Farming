@@ -16,3 +16,7 @@ body {
     overflow: hidden;
     /* max-width: 1500px; */
 }
+
+html{
+    scroll-behavior: smooth;
+}

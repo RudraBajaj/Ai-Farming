@@ -4,12 +4,15 @@ header {
     padding: 20px 30px;
     min-height: 70px;
 
-    border-bottom: #77aaff 3px solid;
+    border-bottom: #007bff 2px solid;
     /* backdrop-filter: blur(10px);*/
 
     /* display: flex; */
     /* align-items: center; */
     /* justify-content: space-between; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header .logo {
@@ -38,7 +41,6 @@ header nav ul {
 
     display: flex;
     /* align-items: center; */
-
 }
 
 header nav ul li {

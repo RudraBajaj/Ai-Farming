@@ -19,4 +19,10 @@ body {
 
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 30px; /* Default padding for other sections */
+}
+
+/* Add a specific class for the home button */
+.home-button {
+    scroll-padding-top: 100px; /* Adjust this value as needed */
 }
